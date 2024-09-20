@@ -1,0 +1,45 @@
+
+body {
+    background-color: #f0f2f5;
+    color: #333;
+}
+.navbar {
+    margin-bottom: 20px;
+}
+.navbar-brand {
+    font-weight: bold;
+}
+.profile-header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+.profile-header img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-right: 20px;
+}
+.profile-header h1 {
+    margin: 0;
+}
+.post-card {
+    margin-bottom: 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.post-card img {
+    width: 100%;
+}
+.post-card .card-body {
+    padding: 15px;
+}
+.post-card .card-body .like, .post-card .card-body .comment {
+    margin-right: 15px;
+}
+.post-card .card-footer {
+    background-color: #f7f7f7;
+}
